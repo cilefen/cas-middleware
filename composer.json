@@ -1,0 +1,25 @@
+{
+    "name": "cilefen/cas-middleware",
+    "description": "PSR-7 Central Authentication System (CAS) Client Middleware",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris McCafferty",
+            "email": "cilefen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "ext-SimpleXML": "*",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cilefen\\Middleware\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
