@@ -1,6 +1,7 @@
 {
     "name": "cilefen/cas-middleware",
     "description": "PSR-7 Central Authentication System (CAS) Client Middleware",
+    "keywords": ["cas","authentication","slim","psr-7","psr7","zend"],
     "type": "library",
     "license": "MIT",
     "authors": [
